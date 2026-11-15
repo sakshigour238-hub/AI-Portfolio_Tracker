@@ -265,11 +265,11 @@ with gr.Blocks(title="AI Portfolio Tracker") as demo:
             inputs=asset_dropdown,
             outputs=prediction_output
         )
-
-
-# Launch Website
-if _ _name_ _ == "_ _main_ _":
-    demo.launch(
+        # Launch Website
+        if __name__ == "__main__":
+        demo.launch(
         server_name="0.0.0.0",
         server_port=7860
-    )
+             )
+
+
