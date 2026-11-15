@@ -268,7 +268,7 @@ with gr.Blocks(title="AI Portfolio Tracker") as demo:
 
 
 # Launch Website
-if _name_ == "_main_":
+if _ _name_ _ == "_ _main_ _":
     demo.launch(
         server_name="0.0.0.0",
         server_port=7860
